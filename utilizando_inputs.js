@@ -1,6 +1,6 @@
 const readline = require('readline').createInterface({
     input: process.stdin,output: process.stdout});  
-const { error_message, sucess_message } = require('./import/erros');
+const { error_message, sucess_message } = require('./import/message');
 const idadeMinima = 18;
 
 readline.question('Digite seu nome: ', (nomeClient) => {
